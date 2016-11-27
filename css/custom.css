@@ -1,0 +1,182 @@
+body {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#intro{
+  background-image: url("../images/aerial_view.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#about{
+  background-image: url("../images/door.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#services{
+  background-image: url("../images/front.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact{
+  background-image: url("../images/desk.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}*/
+
+h1{
+  font-size: 40px;
+}
+
+#info{
+  max-width: 100%;
+  min-height: 400px;
+  background: rgba(0,0,0, .2);
+  padding: 20px;
+}
+
+/*div.circle {
+border-radius: 50%;
+width: 25%;
+position: relative;
+overflow: hidden;
+background-color: rgba(255, 255, 255, 0.7);
+margin: 30px;
+}
+
+div.circle:before {
+content: "";
+display: block;
+padding-top: 100%;
+}
+
+div.circle-inner {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}*/
+
+
+/*img{
+  max-height: 70%;
+  position: relative;
+}*/
+
+/*
+
+div#email:hover:after{
+ content:"Email Me";
+ text-align: center;
+ align-items: center;
+ justify-content:center;
+ position:relative;
+ display:flex;
+ color: white;
+ font-size: 32px;
+ width:100%;
+ height:100%;
+ background: RGBA(56, 110, 14, .5);
+ position:absolute;
+ top:0;
+ left:0;
+}
+
+div#phone:hover:after{
+ content:"Ring, Ring";
+ text-align: center;
+ align-items: center;
+ justify-content:center;
+ position:relative;
+ display:flex;
+ color: white;
+ font-size: 32px;
+ width:100%;
+ height:100%;
+ background: RGBA(56, 110, 14, .5);
+ position:absolute;
+ top:0;
+ left:0;
+ padding: 10px;
+}*/
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+@media (max-width: 992px) {
+  .contact-section {
+      padding-top: 60px;
+  }
+  .services-section, .about-section {
+      padding-top: 100px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  #info{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+  }
+}
